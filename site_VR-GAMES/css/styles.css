@@ -1,0 +1,29 @@
+/* css Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+  color:rgb(238, 238, 238);  
+}
+
+header{
+    background-color: #474747;
+    height: 100px;
+    padding-top: 20px;
+    
+}
+
+img{
+    height: 30px;
+    width: 280;
+}
+
+.container-grid{
+    width: 1400px;
+    margin: 0 auto;
+}
+
