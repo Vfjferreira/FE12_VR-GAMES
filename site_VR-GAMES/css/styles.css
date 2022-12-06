@@ -13,17 +13,38 @@ a{
 header{
     background-color: #474747;
     height: 100px;
-    padding-top: 20px;
-    
+    width: 100%;
+    padding-top: 35px;    
 }
 
 img{
     height: 30px;
     width: 280;
+    
 }
 
 .container-grid{
-    width: 1400px;
+    width: 1300px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.menu {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
