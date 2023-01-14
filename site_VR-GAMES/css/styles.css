@@ -71,7 +71,7 @@ img{
     color: white;    
     font-family: "Inter";
     font-size: 90px;
-    text-indent: -200px;
+    text-indent: -100px;
     
 
 }
@@ -79,14 +79,14 @@ img{
     color: white;    
     font-family: "Inter";
     font-size: 90px;
-    text-indent: -395px;
+    text-indent: -270px;
     
 }
 .conteudo-banner h3{
     color: white;    
     font-family: "Inter";
     font-size: 90px;
-    text-indent: -230px;
+    text-indent: -100px;
 }    
 
 .conteudo-banner a{
@@ -209,7 +209,7 @@ img{
     .menu-ativo{
         display: flex;
     }
-    
+
     .menu a{
         font-size: 20px;
     }
