@@ -159,17 +159,45 @@ img{
     background-color: #474747;
 
 }
+.container-card{
+    padding-top: 30px;
+}
+.card-posicao{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 28px;
+    
+}
+.cards-1{
+    list-style: none;
+    width: 615px;
+    height: 345px;
+}
 
 .carrocel{
-    height: 800px;
+    height: 650px;
     background-color: black;
 }
-
 .carrocel-banner{
-    height: 100%;
-    width: 100%;
-
+    align-items: center;
 }
+
+    
+
+#carouselExampleFade{
+    width: 55%;
+    height: 470px;
+     
+
+    
+}
+.w-100{
+    height:470px;
+    align-items: center;
+}
+    
+
 
 @media screen and (max-width: 1450px){
     .container-grid{
