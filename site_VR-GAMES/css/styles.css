@@ -154,43 +154,68 @@ img{
 }
 
 .cards{
-    height: 850px;
+    height: 880px;
     width: 100%;
     background-color: #474747;
 
 }
 .container-card{
-    padding-top: 30px;
+    padding: 10px;
 }
-.card-posicao{
+.cards1-posicao{
     list-style: none;
     display: flex;
     justify-content: space-around;
     padding: 28px;
+    padding-bottom: 0px;
     
 }
 .cards-1{
     list-style: none;
-    width: 615px;
-    height: 345px;
+    width: 590px;
+    height: 320px;
 }
-
+.cards2-posicao{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 28px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.cards-2{
+    list-style: none;
+    width: 380px;
+    height: 200px;
+}
+.cards3-posicao{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 28px;
+    padding-top: 0px;
+}
+.cards-3{
+    list-style: none;
+    width: 280px;
+    height: 175px;
+}
 .carrocel{
-    height: 650px;
+    height: 550px;
     background-color: black;
 }
 .carrocel-banner{
-    align-items: center;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 320px;
+    padding-right: 320px;
+    
 }
 
-    
-
 #carouselExampleFade{
-    width: 55%;
-    height: 470px;
-     
-
-    
+    width: 100%;
+    height: 490px;
+         
 }
 .w-100{
     height:470px;
