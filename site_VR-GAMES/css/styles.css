@@ -154,10 +154,10 @@ img{
 }
 
 .cards{
-    height: 880px;
+    
     width: 100%;
     background-color: #474747;
-
+    box-sizing: border-box;
 }
 .container-card{
     padding: 10px;
@@ -235,7 +235,7 @@ footer{
     font-family: "Inter";
     background-color: #474747;
     padding: 50px 0;
-    height: 350px;
+    box-sizing: border-box;
 } 
 .container-footer{
     max-width: 1200px;
@@ -286,14 +286,14 @@ footer{
     padding-left: 3px;
 }
 .logofooter {
-    padding-right: -35px;
+   
     padding-left: 0px;
-    padding-top: 120px;
+    padding-top: 40px;
          
 }
-.logofooter li a{
-    padding-left: -100px;
-    max-width: 225px;
+.logofooter .footer-logo{
+    padding-left: -80px;
+    max-width: 245px;
 }
 
 
@@ -390,6 +390,7 @@ footer{
         position: absolute;
         top: 100px;
         right: 0px;
+        width: 300px;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -429,9 +430,115 @@ footer{
         font-family: "Inter";
         font-size: 90px;
         text-indent: -10px;
-    }    
+    }  
+    .posicionamento-jogos{
+        height: 100%;
+        
+    }
+    .container-card{
+        padding: 10px;
+    }
+    .cards1-posicao{
+        list-style: none;
+        display: block;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    .cards-1{
+        list-style: none;
+        max-width: 590px;
+        min-width: 400px;
+        height: 320px;
+        margin: 15px 0;
+    }
+    .cards2-posicao{
+        list-style: none;
+        display: block;
+        justify-content: space-between;
+        padding: 70px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .cards-2{
+        list-style: none;
+        width: 590px;
+        height: 320px;
+        margin: 15px 0;
+    }
+    .cards3-posicao{
+        list-style: none;
+        display: block;
+        justify-content: space-around;
+        padding: 28px;
+        padding-top: 0px;
+    }
+    .cards-3{
+        list-style: none;
+        width: 590px;
+        height: 320px;
+        margin: 15px 0;
+    }  
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:800px) {
+    #bars{
+        display: inline-block;
+     }
+     
+      .menu{
+          display: none;
+          position: absolute;
+          top: 100px;
+          right: 0px;
+          width: 300px;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+  
+          background-color: #474747;
+          height: 400px;
+      }
+     
+      .menu-ativo{
+          display: flex;
+      }
+  
+      .menu a{
+          font-size: 20px;
+      }
+      .container-grid{
+          width: 600px;
+      }
+  
+      .conteudo-banner h1{
+          color: white;    
+          font-family: "Inter";
+          font-size: 90px;
+          text-indent: -30px;
+          
+      
+      }
+      .conteudo-banner h2{
+          color: white;    
+          font-family: "Inter";
+          font-size: 90px;
+          text-indent: -230px;
+          
+      }
+      .conteudo-banner h3{
+          color: white;    
+          font-family: "Inter";
+          font-size: 90px;
+          text-indent: -10px;
+      }    
+    
+    .footer-col{
+        width: 100%;
+        justify-content: center;
     }
 }
