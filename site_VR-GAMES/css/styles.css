@@ -125,7 +125,7 @@ img{
 }
 
 .container{
-    max-width: 1600px;
+    max-width: 1450px;
 } 
 
 .logo-jogo{
@@ -158,67 +158,82 @@ img{
     width: 100%;
     background-color: #474747;
     box-sizing: border-box;
+    display: flex;
+}
+.card-box{
+    width: 1280px;
+    display: block;
+    margin: auto;
+    padding-top: 60px;
+    justify-content: center;
+    
 }
 .container-card{
-    padding: 10px;
+  margin: auto;
+  
 }
 .cards1-posicao{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    padding: 28px;
-    padding-bottom: 0px;
+    align-items: center;
+    padding: auto;
     
 }
 .cards-1{
     list-style: none;
     width: 590px;
     height: 320px;
+    display: flex;
 }
 .cards2-posicao{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    padding: 28px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    align-items: center;
+    padding: auto;
 }
 .cards-2{
     list-style: none;
     width: 380px;
     height: 200px;
+    display: flex;
 }
 .cards3-posicao{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    padding: 28px;
-    padding-top: 0px;
+    align-items: center;
+    padding: auto;
 }
 .cards-3{
     list-style: none;
     width: 280px;
     height: 175px;
+    display: flex;
 }
 .carrocel{
     height: 548px;
     background-color: black;
 }
 .carrocel-banner{
-    display: flex;
-    padding-top: 40px;
-    padding-left: 320px;
-    padding-right: 320px;
+      
     
+    padding-top: 30px;
 }
-
-#carouselExampleFade{
+.carousel{
+    margin: auto;
     width: 100%;
     height: 490px;
-         
+    align-items: center;
+    max-height: 490px;
+    max-width: 705px;  
+    display: flex;   
 }
 .w-100{
     height:470px;
+    max-height: 470px;
+    max-width: 705px;
     align-items: center;
 }
 
@@ -238,7 +253,7 @@ footer{
     box-sizing: border-box;
 } 
 .container-footer{
-    max-width: 1200px;
+    max-width: 1350px;
     padding: 0 4%;
     margin: auto; 
     padding-top: 25px;
@@ -374,6 +389,30 @@ footer{
         font-size: 90px;
         text-indent: -70px;
     }  
+    .carrocel{
+        height: 548px;
+        background-color: black;
+    }
+    .carrocel-banner{
+      
+        padding-top: 40px;
+        padding-left: 320px;
+        padding-right: 320px;
+        
+    }
+    .carousel{
+        margin: auto;
+        width: 100%;
+        height: 490px;
+        align-items: center;
+        max-height: 490px;
+        max-width: 705px;     
+    }
+    .w-100{
+        height:470px;
+        max-height: 470px;
+        max-width: 705px;
+        align-items: center;
     
     
     
@@ -435,15 +474,30 @@ footer{
         height: 100%;
         
     }
+    .card-box{
+        width: 800px;
+        display: block;
+        margin: auto;
+        padding-top: 60px;
+        justify-content: center;
+        
+    }
     .container-card{
-        padding: 10px;
+      margin: auto;
+      width: 800px;
+      justify-content: center;
+
+    
     }
     .cards1-posicao{
         list-style: none;
         display: block;
-        justify-content: center;
-        margin: auto;
-        
+        justify-content: space-between;
+        padding: 100px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        width: 590px;
     }
     .cards-1{
         list-style: none;
@@ -456,10 +510,11 @@ footer{
         list-style: none;
         display: block;
         justify-content: space-between;
-        padding: 70px;
+        padding: 100px;
         padding-top: 0px;
         padding-bottom: 0px;
         margin-bottom: 0px;
+        width: 590px;
     }
     .cards-2{
         list-style: none;
@@ -470,9 +525,12 @@ footer{
     .cards3-posicao{
         list-style: none;
         display: block;
-        justify-content: space-around;
-        padding: 28px;
+        justify-content: space-between;
+        padding: 100px;
         padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        width: 590px;
     }
     .cards-3{
         list-style: none;
@@ -480,6 +538,29 @@ footer{
         height: 320px;
         margin: 15px 0;
     }  
+   
+    .carrocel-banner{
+        width: 705px;
+        padding: 0px;
+        padding-top: 30px;
+        margin: auto;
+    }
+    
+    .carousel{
+        
+        width: 500%;
+        height: 490px;
+        justify-items: center;
+        display: flex;
+        align-items: center;  
+    }
+    .w-100{
+        height:470px;
+        max-height: 470px;
+        max-width: 705px;
+        align-items: center;
+        
+    }
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
