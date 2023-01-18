@@ -152,7 +152,37 @@ img{
     height: 90px;
     width: 160px;
 }
-
+.container-videos{
+        background-color: #3d2f4bea;
+        box-sizing: border-box;
+}
+.container-videos h4{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Inter";
+    text-transform: uppercase;
+    padding-top: 100px;
+        
+}
+.video-jogos1 {
+    max-width: 827px;
+    min-height: 509px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+}
+.video-jogos2 {
+    max-width: 827px;
+    min-height: 509px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 .cards{
     
     width: 100%;
@@ -167,6 +197,15 @@ img{
     padding-top: 60px;
     justify-content: center;
     
+}
+.card-box h4{
+    font-size: 25px;
+    color: white;
+    font-weight: 580;
+    font-family: "Inter";
+    text-transform: uppercase;
+    text-indent: 50px; 
+    padding-bottom: 20px;   
 }
 .container-card{
   margin: auto;
@@ -213,8 +252,19 @@ img{
     display: flex;
 }
 .carrocel{
-    height: 548px;
+    height: 600px;
     background-color: black;
+    box-sizing: border-box;
+}
+.carrocel h4{
+    font-size: 20px;
+    color: white;
+    font-weight: 580;
+    font-family: "Inter";
+    text-transform: uppercase;
+    text-indent: 30px; 
+    padding-top: 0px;
+    padding-bottom: 25px;   
 }
 .carrocel-banner{
       
@@ -228,7 +278,9 @@ img{
     align-items: center;
     max-height: 490px;
     max-width: 705px;  
-    display: flex;   
+    display: flex;
+    padding-bottom: 80px;
+     
 }
 .w-100{
     height:470px;
@@ -364,9 +416,11 @@ footer{
 
 
 
+
+
 @media screen and (max-width: 1450px){
     .container-grid{
-        width: 1100px;
+        width: 1200px;
     }
     .conteudo-banner h1{
         color: white;    
@@ -394,17 +448,26 @@ footer{
         background-color: black;
     }
     .carrocel-banner{
-      
+   
         padding-top: 40px;
         padding-left: 320px;
         padding-right: 320px;
         
     }
+    .carrocel-banner{
+        width: 705px;
+        padding: 0px;
+        padding-top: 30px;
+        margin: auto;
+    }
+    
     .carousel{
         margin: auto;
         width: 100%;
         height: 490px;
-        align-items: center;
+        justify-items: center;
+        display: flex;
+        align-items: center;  
         max-height: 490px;
         max-width: 705px;     
     }
@@ -413,13 +476,149 @@ footer{
         max-height: 470px;
         max-width: 705px;
         align-items: center;
-    
+        
+    }
+}   
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    .container-grid{
+        width: 1000px;
+    }
+    .conteudo-banner h1{
+        color: white;    
+        font-family: "Inter";
+        font-size: 90px;
+        text-indent: -80px;
+        
     
     }
+    .conteudo-banner h2{
+        color: white;    
+        font-family: "Inter";
+        font-size: 90px;
+        text-indent: -260px;
+        
+    }
+    .conteudo-banner h3{
+        color: white;    
+        font-family: "Inter";
+        font-size: 90px;
+        text-indent: -70px;
+    }  
+   
+    .container{
+        max-width: 1100px;
+    } 
     
+    .logo-jogo{
+        height: 70px;
+        width: 120px;
+    }
+     
+    .f122{
+        height: 60px;
+        width: 200x; 
+    }
+    
+    .dcs-world{
+        height: 60px;
+        width: 130px;
+    }
+    
+    .cityz{
+        height: 70px;
+        width: 120px;
+    }
+    
+    .war{
+        height: 80px;
+        width: 140px;
+    }  
+    
+    .card-box{
+        width: 1000px;
+        display: block;
+        margin: auto;
+        padding-top: 60px;
+        justify-content: center;
+        
+    }
+    .container-card{
+      margin: auto;
+      
+    }
+    .cards1-posicao{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: auto;
+        
+    }
+    .cards-1{
+        list-style: none;
+        width: 470px;
+        height: 250px;
+        display: flex;
+    }
+    .cards2-posicao{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: auto;
+    }
+    .cards-2{
+        list-style: none;
+        width: 310px;
+        height: 180px;
+        display: flex;
+    }
+    .cards3-posicao{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: auto;
+    }
+    .cards-3{
+        list-style: none;
+        width: 230px;
+        height: 135px;
+        display: flex;
+    }
+
+
+    .carrocel-banner{
+        width: 705px;
+        padding: 0px;
+        padding-top: 30px;
+        margin: auto;
+    }
+    
+    .carousel{
+        
+        width: 500%;
+        height: 490px;
+        justify-items: center;
+        display: flex;
+        align-items: center;  
+    }
+    .w-100{
+        height:470px;
+        max-height: 470px;
+        max-width: 705px;
+        align-items: center;
+        
+    }
 }
 
-@media screen and (max-width: 1100px){
+
+@media screen and (max-width: 1000px){
     #bars{
       display: inline-block;
    }
@@ -461,7 +660,7 @@ footer{
         color: white;    
         font-family: "Inter";
         font-size: 90px;
-        text-indent: -230px;
+        text-indent: -230px;    
         
     }
     .conteudo-banner h3{
@@ -470,39 +669,80 @@ footer{
         font-size: 90px;
         text-indent: -10px;
     }  
+
     .posicionamento-jogos{
         height: 100%;
+    }   
+        .container{
+            max-width: 1000px;
+        } 
         
-    }
+        .logo-jogo{
+            height: 50px;
+            width: 100px;
+        }
+         
+        .f122{
+            height: 45px;
+            width: 185px; 
+        }
+        
+        .dcs-world{
+            height: 60px;
+            width: 120px;
+        }
+        
+        .cityz{
+            height: 70px;
+            width: 100px;
+        }
+        
+        .war{
+            height: 70px;
+            width: 130px;
+        }    
+        
+
     .card-box{
         width: 800px;
         display: block;
         margin: auto;
         padding-top: 60px;
         justify-content: center;
+        text-align: center;
+    }
+    .card-box h4{
+        font-size: 25px;
+        color: white;
+        text-indent: -350px;
+        font-weight: 580;
+        position: relative;
+        text-transform: uppercase;
+        font-family: "Inter";
+        padding-bottom: 20px;
         
     }
+   
     .container-card{
       margin: auto;
       width: 800px;
       justify-content: center;
 
-    
+
     }
     .cards1-posicao{
-        list-style: none;
+       
         display: block;
         justify-content: space-between;
         padding: 100px;
         padding-top: 0px;
         padding-bottom: 0px;
         margin-bottom: 0px;
-        width: 590px;
+        width: 800px;
     }
     .cards-1{
         list-style: none;
-        max-width: 590px;
-        min-width: 400px;
+        width: 590px;
         height: 320px;
         margin: 15px 0;
     }
@@ -566,6 +806,11 @@ footer{
         margin-bottom: 30px;
     }
 }
+
+
+
+
+
 @media screen and (max-width:800px) {
     #bars{
         display: inline-block;
@@ -617,6 +862,62 @@ footer{
           font-size: 90px;
           text-indent: -10px;
       }    
+    
+
+      .container{
+        max-width: 800px;
+        
+    } 
+    
+    .logo-jogo{
+        height: 40px;
+        width: 70px;
+    }
+     
+    .f122{
+        height: 40px;
+        width: 160px; 
+    }
+    
+    .dcs-world{
+        height: 44px;
+        width: 98px;
+    }
+    
+    .cityz{
+        height: 54px;
+        width: 82px;
+    }
+    
+    .war{
+        height: 60px;
+        width: 110px;
+    }
+    
+    
+    .carrocel-banner{
+        width: 705px;
+        padding: 0px;
+        padding-top: 30px;
+        margin: auto;
+    }
+    
+    .carousel{
+        
+        width: 500%;
+        height: 490px;
+        justify-items: center;
+        display: flex;
+        align-items: center;  
+    }
+    .w-100{
+        height:470px;
+        max-height: 470px;
+        max-width: 705px;
+        align-items: center;
+        
+    }
+
     
     .footer-col{
         width: 100%;

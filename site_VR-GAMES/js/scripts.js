@@ -8,12 +8,8 @@ $(document).ready(function(){
         }
      })
  })
-    /*function mostrarmenu($event){
-    let menu = document.getElementById("menu")
-        if(getComputedStyle(menu).display == "none"){
-           menu.style.display = "flex"
-        }else{
-            menu.style.display = "none"
-        }   
-  event.preventdefault()
-} */
+    
+ function cadastrarNewsletter(){
+    let email = document.getElementById("campo-email").value
+    alert(email)
+ }
