@@ -167,7 +167,8 @@ img{
     font-family: "Inter";
     text-transform: uppercase;
     padding-top: 80px;
-        
+    margin-left: auto;
+    margin-right: auto;   
 }
 .video-jogos1 {
     max-width: 827px;
@@ -268,7 +269,7 @@ img{
     background-color: black;
     box-sizing: border-box;
 }
-.carrocel h4{
+.carrocel-banner h4{
     font-size: 20px;
     color: white;
     font-weight: 580;
@@ -279,9 +280,10 @@ img{
     padding-bottom: 25px;   
 }
 .carrocel-banner{
-      
-    
-    padding-top: 30px;
+        width: 705px;
+        padding: 0px;
+        padding-top: 30px;
+        margin: auto;
 }
 .carousel{
     margin: auto;
@@ -322,17 +324,19 @@ img{
     width: 500px;
     height: 300px;
     display: block;
-    padding-left: 420px;
+    padding-left: 0px;
     padding-top: 100px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 .video2{
     width: 500px;
     height: 300px;
     display: block;
-    padding-left: 420px;
+    padding-left: 0px;
     padding-top: 200px;
-   
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -666,15 +670,19 @@ footer{
     width: 500px;
     height: 300px;
     display: block;
-    padding-left: 330px;
+    padding-left: 0px;
     padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .video2{
     width: 500px;
     height: 300px;
     display: block;
-    padding-left: 330px;
+    padding-left: 0px;
     padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 }
 
@@ -875,15 +883,19 @@ footer{
     width: 500px;
     height: 300px;
     display: block;
-    padding-left: 230px;
+    padding-left: 0px;
     padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .video2{
     width: 500px;
     height: 300px;
     display: block;
-    padding-left: 230px;
+    padding-left: 0px;
     padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
     .footer-col{
         width: 50%;
@@ -1014,15 +1026,19 @@ footer{
     width: 500px;
     height: 300px;
     display: block;
-    padding-left: 130px;
+    padding-left: 0px;
     padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .video2{
     width: 500px;
     height: 300px;
     display: block;
-    padding-left: 130px;
+    padding-left: 0px;
     padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
     
     .footer-col{
